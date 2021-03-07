@@ -1,0 +1,32 @@
+﻿So program can work it has to be in the same folder where DeComp.exe is!
+
+
+
+[Buttons]
+Compile - transforms your code to DeComp binary code
+Load    - loads code from file specified in  the [Filename] input field
+Unload  - unloads DeComp binary code. Using it you can use in the DeComp program button [Ввід з пристрою вводу].
+Save    - saves code to the file specified in  the [Filename] input field
+Memory  - opens the popup with DeComp "RAM" editor. Only decimal values!
+
+
+[Popups]
+Memory popup
+	- Attach button - if DeComp is opened you can hit this button to attach to its "RAM" memory
+	- Offset input  - "line" in the DeComp where the value reads from and writes to.
+	- Value input   - the value of the "line"
+
+Credits  - ..
+Contacts - ..
+Something does not work? - ... nah it cant be true
+
+[DeComp code edit field]
+After every line of instruction [new line] is needed! its like a semicolon ";"
+
+Everyting that is supported - look at supported.png
+
+How to write code? - just do it like this: ( REMEBER - [new line] )
+    LOAD 10d
+    ADD 11d
+    STORE 12d
+    HALT
